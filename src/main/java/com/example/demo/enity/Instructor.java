@@ -17,7 +17,7 @@ public class Instructor extends Person implements Teacher {
     public void teach(Learner learner, double numberOfHours) {
     learner.learn(numberOfHours);
     }
-
+//again added comments
     @Override
     public void lecture(Iterable<? extends Learner> learners, double numberOfHours) {
         List<Learner> listOfLearners = iterableToList(learners);
